@@ -4,5 +4,4 @@ services:
         build: .
         ports:
             - "8080:5001"
-        environment: 
-            - OPEN_WEATHER_API_KEY
+        env_file: .env
