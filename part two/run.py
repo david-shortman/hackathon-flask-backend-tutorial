@@ -30,5 +30,10 @@ def weather(country, city):
 
 # Keep this at the bottom of app.py
 if __name__ == "__main__":
-    port = os.environ.get('PORT')
-    app.run(host=f'0.0.0.0:{port}')
+    if os.environ.get('IS_CONTAINER') != 'true':
+        app.run(debug=True)
+    else:
+        port = os.environ.get('PORT')
+        if port == None:
+            port = '5000'
+        app.run(host=f'0.0.0.0:{port}')
