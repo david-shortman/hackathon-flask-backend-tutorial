@@ -1,6 +1,6 @@
 # hackathon-flask-backend-tutorial
 
-## Follow along with the tutorial [here](https://dev.to/davidshortman/write-a-dead-simple-web-app-fast-for-a-hackathon-part-one-a-flask-backend-4l9j)
+## Follow along with the tutorial [here](https://dev.to/davidshortman/write-a-dead-simple-web-app-fast-for-a-hackathon-part-two-debug-and-deploy-927)
 
 ### Environment
 Create a `.env` file with the following parameters:
