@@ -5,7 +5,7 @@
 ### Installing requirements
 ```bash
 virtualenv venv
-source venv/bin/activation
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### Running
